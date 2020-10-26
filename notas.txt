@@ -1,0 +1,6 @@
+cd y atrastramos la carpeta al git bash para abrirla rapido
+
+clear para limpiar consola
+
+cuando borramos un archivo, debemos notificarlo a git con el comando git add, es como si le mandaramos a guardar el estado
+deleted del archivo en cuestion, tambien se puede restaurar con restore

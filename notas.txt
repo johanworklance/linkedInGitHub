@@ -4,3 +4,13 @@ clear para limpiar consola
 
 cuando borramos un archivo, debemos notificarlo a git con el comando git add, es como si le mandaramos a guardar el estado
 deleted del archivo en cuestion, tambien se puede restaurar con restore
+
+para configurar nuestro github remoto usamos
+
+git remote add origin git@github.com:johanworklance/linkedInGitHub.git   (origin puede ser cualquier nombre)
+
+y para enviarlo usamos
+
+git push -u origin master (cuando hice esto se supone que github cambio master a main, pero con main me daba error)
+
+j

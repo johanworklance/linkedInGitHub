@@ -31,3 +31,10 @@ git checkout nombre_rama para movernos a dicha rama (tambien podemos crear y mov
 
 git merge nombre_rama este fusionara la rama en el comando con la que estemos actualmente, si no hay conflictos lo hara
 
+
+para eliminar usamos git branch -d nombre_rama
+
+
+NOTA: asegurarse de usar git add . git commit con cada cambio que hagamos entre rama, o estas se arrastraran unas con las otras
+
+

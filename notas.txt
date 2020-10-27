@@ -13,4 +13,10 @@ y para enviarlo usamos
 
 git push -u origin master (cuando hice esto se supone que github cambio master a main, pero con main me daba error)
 
-j
+
+
+para el error fatal: refusing to merge unrelated histories  usar el git pull origin master --allow-unrelated-histories
+
+bajara todos los archivos de git hub a la carpeta donde establecimos el remote
+
+esto creara una nueva rama en github que podremos hacer merge con la main desde alli

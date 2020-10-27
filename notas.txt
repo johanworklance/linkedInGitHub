@@ -20,3 +20,14 @@ para el error fatal: refusing to merge unrelated histories  usar el git pull ori
 bajara todos los archivos de git hub a la carpeta donde establecimos el remote
 
 esto creara una nueva rama en github que podremos hacer merge con la main desde alli
+
+
+
+
+
+git branch nombre_rama para crear una rama, esta tiene en su interior el contenido de la rama desde donde se creo
+
+git checkout nombre_rama para movernos a dicha rama (tambien podemos crear y movernos con un solo comando git checkout -b nombre_rama)
+
+git merge nombre_rama este fusionara la rama en el comando con la que estemos actualmente, si no hay conflictos lo hara
+
